@@ -1,5 +1,6 @@
 // create a bot
 
+
 var SlackBot = require("slackbots");
     var channel = "YourchannelHere";
 
@@ -7,7 +8,7 @@ var SlackBot = require("slackbots");
         token: "YOURTOKENHERE",
         name: "AD-BOT"
     });
-
+//Connect the bot
     bot.on("start", function() {
         bot.postMessageToChannel(channel, "Welcome to Active Directory Channel");
         console.log("BOT is now Live!");
